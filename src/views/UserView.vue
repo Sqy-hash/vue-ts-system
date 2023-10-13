@@ -28,7 +28,8 @@
       </el-table-column>
       <el-table-column prop="name" label="操作">
         <template #default="scope">
-          <el-button @click="dialogFormVisible(scope.row)" round type="primary">编辑</el-button>
+          <el-button @click="dialogFormVisible(scope.row)" round type="primary">
+            编辑</el-button>
         </template>
       </el-table-column>
     </el-table>
